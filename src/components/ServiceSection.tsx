@@ -41,7 +41,7 @@ const ServiceCard: React.FC<{
 
       <div className="flex w-full items-center bg-gray-50 lg:w-1/2">
         <div className="w-full px-8 py-8 lg:px-16 lg:py-16">
-          <h2 className="mb-6 text-3xl text-gray-900 lg:text-4xl xl:text-5xl font-custom">
+          <h2 className="mb-6 text-3xl md:text-3xl lg:text-4xl xl:text-[2.8rem] text-gray-900 font-custom">
             {item.title}
           </h2>
 
