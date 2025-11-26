@@ -25,7 +25,7 @@ export const serviceItems = [
       "We implement hospitality and management programs specifically tailored to your venue’s needs. By providing a turnkey food and beverage component alongside a dedicated event team, we are able to maximize your ROI. Our exclusive venue services include:",
     bullet: ["Sales and Marketing", "Operations", "Event Management"],
     subDescription2:
-      "Our key relationships allow us to create a unique revenue-sharing platform for our partners, all while delivering a signature experience through fine dining, celebrated spirits, ambiance, and entertainment",
+      "Our key relationships allow us to create a unique revenue-sharing platform for our partners, all while delivering a signature experience through fine dining, celebrated spirits, ambiance, and entertainment.",
   },
   {
     title: "Why It Works",
