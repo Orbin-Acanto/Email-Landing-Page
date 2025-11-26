@@ -8,7 +8,6 @@ const ParallaxSection: React.FC = () => {
         h-[40vh]
         overflow-hidden
         parallax-bg
-        mt-24
       "
     >
       <img
