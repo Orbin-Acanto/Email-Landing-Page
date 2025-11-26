@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/fluence.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #d2b371;
+  --color-whitesmoke: #f5f5f5;
+  --color-white: #ffffff;
+
+  --color-dark-black: #0a0a0a;
+  --font-primary: "Gilda Display", serif;
+  --font-custom: "MyFont", sans-serif;
+}
+
+.hero-header {
+  font-family: "Oswald", sans-serif;
+}
+
+.font-custom {
+  font-family: var(--font-custom);
+}
+
+.parallax-bg {
+  background-attachment: fixed;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .parallax-bg {
+    background-attachment: scroll;
+  }
+}
