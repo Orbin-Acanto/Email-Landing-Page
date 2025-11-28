@@ -8,14 +8,6 @@ export const serviceItems = [
       "With over 30 years of experience in the industry, we possess the knowledge and resources required to effectively manage and market your venue. By providing our partners with a comprehensive management and marketing plan, we increase revenue while simultaneously reducing operating costs.",
   },
   {
-    title: "Return on Investment",
-    description:
-      "Partnering with FiDi Hospitality delivers measurable ROI to building ownership by providing clear operational benefits and strong returns on your investment. We maximize your venue's financial potential through aggressive sales strategies and a unique revenue-sharing platform that ensures every square foot of your property is generating income.",
-    images: ["/service/return-on-investment.jpg"],
-    subDescription:
-      "Simultaneously, we optimize your bottom line by eliminating the overhead of hiring and managing internal staff. By providing a comprehensive turnkey food, beverage, and event team, we function as an extension of your operations—creating a streamlined revenue stream without adding to your payroll.",
-  },
-  {
     title: "Property Management",
     description:
       "FiDi Hospitality is renowned for exceptional venue management services. Whether hosting global events or fulfilling special client requests, we leverage our expertise in facilities and event management to serve a diverse clientele.",
@@ -26,6 +18,14 @@ export const serviceItems = [
     bullet: ["Sales and Marketing", "Operations", "Event Management"],
     subDescription2:
       "Our key relationships allow us to create a unique revenue-sharing platform for our partners, all while delivering a signature experience through fine dining, celebrated spirits, ambiance, and entertainment.",
+  },
+  {
+    title: "Return on Investment",
+    description:
+      "Partnering with FiDi Hospitality delivers measurable ROI to building ownership by providing clear operational benefits and strong returns on your investment. We maximize your venue's financial potential through aggressive sales strategies and a unique revenue-sharing platform that ensures every square foot of your property is generating income.",
+    images: ["/service/return-on-investment.jpg"],
+    subDescription:
+      "Simultaneously, we optimize your bottom line by eliminating the overhead of hiring and managing internal staff. By providing a comprehensive turnkey food, beverage, and event team, we function as an extension of your operations—creating a streamlined revenue stream without adding to your payroll.",
   },
   {
     title: "Why It Works",
