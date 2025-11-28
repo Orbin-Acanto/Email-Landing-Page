@@ -66,7 +66,7 @@ const ServiceCard: React.FC<{
           )}
 
           {item.subDescription2 && (
-            <p className="mt-2 mb-0 text-base leading-relaxed text-gray-600 lg:text-lg">
+            <p className="mt-4 mb-0 text-base leading-relaxed text-gray-600 lg:text-lg">
               {item.subDescription2}
             </p>
           )}
