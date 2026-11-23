@@ -34,6 +34,8 @@ const ServiceCard: React.FC<{
               src={imageSrc}
               className="h-full w-full object-cover"
               alt={item.title}
+              loading="lazy"
+              decoding="async"
             />
           )}
         </div>

@@ -12,7 +12,8 @@ const ParallaxSection: React.FC = () => {
     >
       <img
         src="/hero/hero.jpg"
-        alt="Holiday Background"
+        alt=""
+        fetchPriority="high"
         className="absolute inset-0 h-full w-full object-cover"
       />
 
@@ -20,9 +21,11 @@ const ParallaxSection: React.FC = () => {
 
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="text-white text-5xl md:text-6xl drop-shadow-xl uppercase hero-header  text-left">
-          Expert <span className="font-bold">Hospitality Services</span>
-          <br />
-          Seamless <span className="font-bold">Venue Management</span>
+          <h1>
+            Expert <span className="font-bold">Hospitality Services</span>
+            <br />
+            Seamless <span className="font-bold">Venue Management</span>
+          </h1>
           <div className="text-3xl normal-case font-normal mt-2 tracking-normal">
             We are the missing piece to your puzzle
           </div>
